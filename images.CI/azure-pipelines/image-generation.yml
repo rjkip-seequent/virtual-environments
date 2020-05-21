@@ -6,7 +6,7 @@
 
 jobs:
 - job:
-  pool: ci-agent-pool
+  #pool: ci-agent-pool
   timeoutInMinutes: 600
   cancelTimeoutInMinutes: 30
   variables:
