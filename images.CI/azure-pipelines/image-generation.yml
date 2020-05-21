@@ -6,7 +6,7 @@
 
 jobs:
 - job:
-  #pool: ci-agent-pool
+  pool: windows-2019
   timeoutInMinutes: 600
   cancelTimeoutInMinutes: 30
   variables:
